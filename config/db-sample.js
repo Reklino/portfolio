@@ -1,4 +1,6 @@
 // config/db.js
+
+// Replace this with your mongodb url
 module.exports = {
-    url : 'mongodb://butt:butt@ds031271.mongolab.com:31271/reklino'
+    url : 'mongodb://sampleuser:samplepass@domain.com:55555/dbname'
 }
