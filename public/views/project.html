@@ -1,0 +1,11 @@
+<div class="jumbotron text-center">
+    <h1>Projects and Proud</h1>
+
+    <p>{{ tagline }}</p>
+
+    <div class="project" ng-repeat="project in projects">
+    	<h3>{{ project.name }}</h3>
+    	<p>{{ project.desc }}</p>
+    	<img ng-src="{{ project.thumb.src }}" alt="{{ project.thumb.alt }}">
+    </div>
+</div>
